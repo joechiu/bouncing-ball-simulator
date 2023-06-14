@@ -4,6 +4,8 @@ import os, sys, time
 from random import randint, uniform
 from i import Info
 
+time.clock = time.time
+
 pygame.mixer.pre_init(44100, -16, 1, 512)
 width, height = 800, 600
 bgcolor = Color("black")
